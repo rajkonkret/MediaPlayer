@@ -7,7 +7,7 @@ class Player {
     }
 
     void play() {
-        if (!empty){
+        if (!empty) {
             System.out.println(disc.read());
         } else {
             System.out.println("Brak płyty w napędzie");
@@ -18,7 +18,7 @@ class Player {
         if (empty) {
             this.disc = disc;
             empty = false;
-            System.out.println("Załadowano płytę " +disc.getName() );
+            System.out.println("Załadowano płytę " + disc.getName());
         } else {
             System.out.println("W napędzie jest już płyta");
         }
