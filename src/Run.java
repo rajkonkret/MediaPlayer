@@ -22,9 +22,9 @@ public class Run {
 //    • void play() – uruchomienie płyty, która aktualnie jest w nośniku lub wypisanie, że nośnik jest pusty.
 //    • void eject() – wyjęcie płyty z nośnika (nośnik jest pusty).
     public static void main(String[] args) {
-        List<Disc> discs = new ArrayList<>();
-        Disc cd = new Cd();
-        Disc dvd = new Dvd();
+        List<Disc2> discs = new ArrayList<>();
+        Disc2 cd = new Cd();
+        Disc2 dvd = new Dvd();
         Player player = new Player();
 
         discs.add(cd);

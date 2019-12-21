@@ -1,6 +1,6 @@
 class Player {
     private boolean empty;
-    private Disc disc;
+    private Disc2 disc;
 
     public Player() {
         this.empty = true;
@@ -14,7 +14,7 @@ class Player {
         }
     }
 
-    void insert(Disc disc) {
+    void insert(Disc2 disc) {
         if (empty) {
             this.disc = disc;
             empty = false;
@@ -24,7 +24,7 @@ class Player {
         }
     }
 
-    void eject(Disc disc) {
+    void eject(Disc2 disc) {
         if (!empty) {
             System.out.println("Wyjęto płytę");
             this.disc = null;
